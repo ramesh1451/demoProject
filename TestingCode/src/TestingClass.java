@@ -3,6 +3,13 @@ import java.util.Scanner;
 public class TestingClass {
 
 	public static void main(String[] args) {
+		
+		StringBuffer str=new StringBuffer("viratkohli");
+		str.append("INDRCB");
+		
+		System.out.println(str);
+		
+		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter the key value to search: ");
 		int key=scan.nextInt();
